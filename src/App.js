@@ -3,8 +3,8 @@
 import React from "react";
 import { BrowserRouter as Router , Switch , Route } from "react-router-dom";
 //  import Resturant from    "./component/basics/Resturant";
- import Todo from  "./component/todoreact/todo";
-// import Temp from "./component/Weather/temp";
+//  import Todo from  "./component/todoreact/todo";
+import Temp from "./component/Weather/temp";
 
 
 
@@ -14,8 +14,8 @@ const App = () => {
    return (
 
       // <Resturant />
-      // <Temp />
-       <Todo />
+      <Temp />
+      //  <Todo />
    );
 };
 
